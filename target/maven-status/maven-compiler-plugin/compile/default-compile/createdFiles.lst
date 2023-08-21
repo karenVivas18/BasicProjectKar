@@ -1,0 +1,7 @@
+org\basic\App.class
+org\basic\pages\BasePage.class
+org\basic\actions\Action1.class
+org\basic\driver\WaitUtils.class
+org\basic\driver\DriverManager.class
+org\basic\pages\HomePage.class
+org\basic\pages\LoginPage.class

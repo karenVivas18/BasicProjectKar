@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 0.758 s <<< FAILURE! - in TestSuite
+beforeTest(org.basic.Test1)  Time elapsed: 0.497 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method beforeTest but has not been marked @Optional or defined
+
+
+setUpTest(org.basic.Test1)  Time elapsed: 0.544 s  <<< FAILURE!
+java.lang.NullPointerException
+	at org.basic.Test1.setUpTest(Test1.java:29)
+
